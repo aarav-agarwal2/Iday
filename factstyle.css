@@ -1,0 +1,19 @@
+body
+{
+  background-color: orange;
+}
+
+h1
+{
+  text-decoration: underline;
+  font-size: 3em;
+  font-family: impact;
+}
+
+.facts
+{
+  font-family: cursive;
+  font-size: 1.5em;
+  word-break: normal;
+  line-height: 1.5;
+}

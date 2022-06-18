@@ -1,0 +1,154 @@
+body
+{
+background-image:url("flag4.jpg");
+background-size: cover;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+overflow: hidden;
+}
+
+ .text
+ {
+   text-align: center;
+   margin-right: -5%;
+   margin-top: -7%;
+   font: oblique xx-large impact;
+   color: blue;
+   text-transform: capitalize;
+   animation:blinkingText 1s linear infinite;
+ }
+@keyframes blinkingText{
+    0%{opacity: 0;}
+   50%{opacity: .5;}
+  100%{opacity: 1;}
+}
+
+.ff
+{
+  position : absolute;
+  right : 0;
+  top : 550px;
+}
+
+.ffimg
+{
+  max-width: 30%;
+  height: auto;
+  margin-right: 780px;
+  float : left;
+  margin-bottom: 0;
+}
+
+.btnNa
+{
+  background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.btnNa:hover
+{
+  background-color: #3e8e41
+}
+
+.head2
+{
+  font-family: Times new roman;
+  font-size: 2em;
+  text-align: right;
+  position: relative;
+  top: -50px;
+  margin-bottom: -3%;
+}
+
+.info1
+{
+  text-align: right;
+  font-size: 1.15em;
+  position: relative ;
+  top: -50px;
+}
+.heading1
+{
+  font-family: Times new roman;
+  font-size: larger;
+  text-align: right;
+}
+
+.info2
+{
+  text-align: right;
+  font-size: 1.15em;
+  position: relative;
+  top: -50px;
+}
+
+.imgf
+{
+  float: left;
+}
+.quote
+{
+  text-align: center;
+  word-wrap: normal;
+  margin-right: 300px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.info3
+{
+  text-align: right;
+  font-size: 1.15em;
+  position: relative;
+  top: -50px;
+}
+
+.head
+{
+  text-align: right;
+  position: static;
+  top: -150px;
+  font-family: impact;
+}
+
+.fi1
+{
+  text-align: right;
+  position: relative;
+    top: -150px;
+    font-family: inherit;
+}
+
+.fi2
+{
+  text-align: right;
+  position: relative;
+    top: -150px;
+    font-family: inherit;
+}
+
+.fi3
+{
+  text-align: right;
+  position: relative;
+    top: -150px;
+    font-family: inherit;
+}
+
+.fi4
+{
+  text-align: right;
+  position: relative;
+  top: -150px;
+  margin-bottom: 0;
+  font-family: inherit;
+}
